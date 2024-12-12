@@ -4,8 +4,7 @@ A fast way to start coding your ideas and prjects!
 
 Download, open project and code.
 
-Visual Studio project (x86 & x64) with SDL2, Dear ImGui and OpenGL 3.0
-
+CMake C++ Project and VCPKG with SDL2, Dear ImGui and OpenGL 3.0
 
 ## 3rd Party Licenses
 
