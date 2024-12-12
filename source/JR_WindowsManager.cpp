@@ -8,10 +8,10 @@
 
 #include <SDL2/SDL.h>
 #define IMGUI_DEFINE_MATH_OPERATORS
-#include <ImGui/imgui_internal.h>
-#include <ImGui/backends/imgui_impl_sdl.h>
-#include <ImGui/backends/imgui_impl_opengl3_loader.h>
-#include <ImGui/backends/imgui_impl_opengl3.h>
+#include <imgui_internal.h>
+#include <imgui_impl_sdl2.h>
+#include <imgui_impl_opengl3_loader.h>
+#include <imgui_impl_opengl3.h>
 
 #include <vector>
 #include <string>

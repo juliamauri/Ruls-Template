@@ -4,9 +4,9 @@
 #include "JR_WindowsManager.h"
 
 #include <SDL2/SDL.h>
-#include <ImGui/backends/imgui_impl_sdl.h>
-#include <ImGui/backends/imgui_impl_opengl3_loader.h>
-#include <ImGui/backends/imgui_impl_opengl3.h>
+#include <imgui_impl_sdl2.h>
+#include <imgui_impl_opengl3_loader.h>
+#include <imgui_impl_opengl3.h>
 
 ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
 

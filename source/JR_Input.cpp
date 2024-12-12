@@ -4,7 +4,7 @@
 #include "JR_WindowAndRenderer.h"
 
 #include <SDL2/SDL.h>
-#include <ImGui/backends/imgui_impl_sdl.h>
+#include <imgui_impl_sdl2.h>
 
 #define EVENT_NULL -1
 

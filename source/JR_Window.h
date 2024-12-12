@@ -3,7 +3,7 @@
 
 #include <string>
 
-#include <ImGui/imgui.h>
+#include <imgui.h>
 
 class JR_Window
 {
