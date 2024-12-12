@@ -1,0 +1,1 @@
+add_executable (Ruls_Template "main.cpp")
