@@ -1,9 +1,15 @@
 find_package(SDL2 CONFIG REQUIRED)
 find_package(imgui CONFIG REQUIRED)
 
-file(GLOB_RECURSE SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp")
-
-add_executable (${TARGET_NAME} ${SOURCES})
+add_executable (${TARGET_NAME})
+target_sources(${TARGET_NAME} PRIVATE
+    main.cpp
+    JR_Application.cpp
+    JR_Input.cpp
+    JR_Window.cpp
+    JR_WindowAndRenderer.cpp
+    JR_WindowsManager.cpp
+)
 target_compile_definitions(${TARGET_NAME} PRIVATE IMGUI_DEFINE_MATH_OPERATORS)
 
 target_link_libraries(${TARGET_NAME}
